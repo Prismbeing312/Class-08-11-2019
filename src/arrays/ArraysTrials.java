@@ -6,22 +6,42 @@ import java.util.Random;
 public class ArraysTrials {
 
 	public static void main(String[] args) {
-		Random rand = new Random();
-		int[] array = new int[10];
-		for (int i = 0; i < array.length; i++) {
-			array[i] = rand.nextInt(10);
-		}
-		int counter = 0;
-		for (int current: array) {
-		   for (int i = 1; i < array.length; i++) {
-			if(current == array[i]) {
-				counter++;
-			}
-		  }
-		}
-
+        
 		
 		
+		
+		
+		
+		
+		
+		//Q3Arrays
+		//		Random rand = new Random();
+//		int[] array = new int[10];
+//		for (int i = 0; i < array.length; i++) {
+//			array[i] = rand.nextInt(10);
+//		}
+//		int[] array2 = array.clone();
+//		System.out.println(Arrays.toString(array));
+//		int counter = 0;
+//        for (int i = 0; i < array2.length; i++) {
+//			for (int j = 0; j < array2.length; j++) {
+//				if(array2[i] == array2[j] && i != j ) {
+//					array2[i] = -1;
+//					counter++;
+//			}
+//		}
+//		}
+//        System.out.println(Arrays.toString(array2));
+//        int[] newArray = new int[array.length - counter];
+//        counter = 0;
+//        for (int i = 0; i < array2.length; i++) {
+//   			if(array2[i] >= 0) {
+//   				newArray[counter] = array2[i];
+//   				counter++;
+//   			}
+//   		}
+//        System.out.println(Arrays.toString(newArray));
+//		
 		//Q2Arrays
 		//		Random rand = new Random();
 //        int[] array = new int[50];
